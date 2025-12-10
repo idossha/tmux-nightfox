@@ -65,8 +65,6 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 <td valign="top">
 
 <img src="assets/palettes.svg" alt="Nightfox color palettes" width="200px">
-<br>
-<small><a href="assets/palettes.pdf" target="_blank">📄 Download PDF version</a></small>
 
 </td>
 </tr>
