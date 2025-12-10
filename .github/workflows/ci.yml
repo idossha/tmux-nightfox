@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install shellcheck
+      run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+    - name: Install shfmt
+      run: |
+        wget -O shfmt https://github.com/mvdan/sh/releases/download/v3.7.0/shfmt_v3.7.0_linux_amd64
+        chmod +x shfmt
+        sudo mv shfmt /usr/local/bin/
+
+    - name: Run shellcheck
+      run: make lint_shellcheck
+
+    - name: Run shfmt check
+      run: |
+        if ! make lint_shfmt; then
+          echo "Code is not properly formatted. Run 'shfmt -w -i 2 src/*.sh' to fix."
+          exit 1
+        fi
+
+    - name: Check syntax
+      run: |
+        find src -name "*.sh" -exec bash -n {} \;
+        bash -n nightfox-tpm.tmux
