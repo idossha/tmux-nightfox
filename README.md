@@ -3,7 +3,7 @@
     <h1>Nightfox theme for Tmux</h1>
 </div>
 
-Theme with 'fox' flavor for [Tmux][github-tmux], based on [EdenEast's nightfox color scheme][github-nightfox].
+Theme with 'fox' flavor for [Tmux][github-tmux], based on [EdenEast's nightfox color scheme][github-nightfox] and inspired by [egel/tmux-gruvbox][github-tmux-gruvbox].
 
 <div align="center">
   <a href="https://raw.githubusercontent.com/edeneast/nightfox.nvim/main/assets/carbonfox.png" target="_blank" title="Nightfox themes for Tmux">
