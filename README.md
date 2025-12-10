@@ -19,12 +19,6 @@ Theme with 'fox' flavor for [Tmux][github-tmux], based on [EdenEast's nightfox c
 
 > Screenshot shows carbonfox theme. All 7 nightfox variants are supported.
 
-## Color Palettes
-
-<img src="palettes.svg" alt="Nightfox color palettes" width="100%">
-
-> Each theme features a unique background, foreground, gray, and accent color that unifies all semantic colors (red, green, yellow, blue, purple, aqua, orange).
-
 ## Installation
 
 ### Install via [TPM][github-tpm] (recommended)
@@ -53,6 +47,10 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 - default value: `nightfox`
 
+<table>
+<tr>
+<td>
+
 | Theme name | Description |
 | :--------- | :---------- |
 | `carbonfox` | Dark theme with carbon colors |
@@ -62,6 +60,19 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 | `nightfox` | Dark theme with night colors |
 | `nordfox` | Dark theme with nord colors |
 | `terafox` | Dark theme with terra colors |
+
+</td>
+<td>
+
+<img src="palettes.svg" alt="Nightfox color palettes" width="400px">
+
+<p style="font-size: 12px; color: #666; margin-top: 10px;">
+Each theme features a unique background, foreground, gray, and accent color that unifies all semantic colors (red, green, yellow, blue, purple, aqua, orange).
+</p>
+
+</td>
+</tr>
+</table>
 
 ```bash
 set -g @tmux-nightfox 'nightfox' # carbonfox, dawnfox, dayfox, duskfox, nordfox, terafox
