@@ -66,10 +66,6 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 <img src="palettes.svg" alt="Nightfox color palettes" width="400px">
 
-<p style="font-size: 12px; color: #666; margin-top: 10px;">
-Each theme features a unique background, foreground, gray, and accent color that unifies all semantic colors (red, green, yellow, blue, purple, aqua, orange).
-</p>
-
 </td>
 </tr>
 </table>
