@@ -165,7 +165,7 @@ To keep the files clean we use few program to help us achieve it:
 
 ## License
 
-MIT - YOUR_NAME
+MIT
 
 [github-nightfox]: https://github.com/edeneast/nightfox.nvim
 [github-tmux]: https://github.com/tmux/tmux
