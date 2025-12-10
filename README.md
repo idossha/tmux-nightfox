@@ -47,9 +47,8 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 - default value: `nightfox`
 
-<table>
-<tr>
-<td>
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+<div>
 
 | Theme name | Description |
 | :--------- | :---------- |
@@ -61,14 +60,13 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 | `nordfox` | Dark theme with nord colors |
 | `terafox` | Dark theme with terra colors |
 
-</td>
-<td>
+</div>
+<div>
 
 <img src="assets/palettes.svg" alt="Nightfox color palettes" width="500px">
 
-</td>
-</tr>
-</table>
+</div>
+</div>
 
 ```bash
 set -g @tmux-nightfox 'nightfox' # carbonfox, dawnfox, dayfox, duskfox, nordfox, terafox
