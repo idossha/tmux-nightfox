@@ -41,28 +41,6 @@ set -g @tmux-nightfox 'nightfox' # or 'carbonfox', 'dawnfox', 'dayfox', 'duskfox
 
 Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated with the theme at this point.
 
-### Install manually
-
-> [!TIP]
-> [download](https://github.com/idossha/tmux-nightfox/archive/refs/heads/main.zip) it and unzip.
-
-1.  Clone the project to desired location
-
-    ```bash
-    cd ~/projects/
-    git clone https://github.com/idossha/tmux-nightfox.git
-    ```
-
-1.  Add theme at to top of your `~/.tmux.conf` config.
-
-    ```bash
-    # ~/.tmux.conf
-
-    run ~/projects/tmux-nightfox/nightfox-tpm.tmux
-    # set desired options...
-    set -g @tmux-nightfox 'nightfox' # or 'carbonfox', 'dawnfox', 'dayfox', 'duskfox', 'nordfox', 'terafox'
-    ```
-
 ## Configuration options
 
 ### Theme
