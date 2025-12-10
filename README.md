@@ -44,13 +44,13 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 ### Install manually
 
 > [!TIP]
-> If you do not have github account [download](https://github.com/<YOUR_GITHUB_USERNAME>/tmux-nightfox/archive/refs/heads/main.zip) it and unzip.
+> [download](https://github.com/idossha/tmux-nightfox/archive/refs/heads/main.zip) it and unzip.
 
 1.  Clone the project to desired location
 
     ```bash
     cd ~/projects/
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/tmux-nightfox.git
+    git clone https://github.com/idossha/tmux-nightfox.git
     ```
 
 1.  Add theme at to top of your `~/.tmux.conf` config.
@@ -155,7 +155,7 @@ To run project locally:
 
     ```bash
     cd $HOME/projects/
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/tmux-nightfox.git
+    git clone https://github.com/idossha/tmux-nightfox.git
     ```
 
 1.  create a symlink to the cloned repository (best in the standard [TPM][github-tpm] plugin directory):
@@ -192,3 +192,4 @@ MIT - YOUR_NAME
 [github-nightfox]: https://github.com/edeneast/nightfox.nvim
 [github-tmux]: https://github.com/tmux/tmux
 [github-tpm]: https://github.com/tmux-plugins/tpm
+[github-tmux-gruvbox]: https://github.com/egel/tmux-gruvbox
